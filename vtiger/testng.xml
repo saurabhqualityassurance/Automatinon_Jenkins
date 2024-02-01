@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="VtigerTestSuite" verbose="1" preserve-order="true">
+
+<!-- 	<groups> -->
+<!-- 	<run> -->
+<!-- 	<include name="Smoke" /> -->
+<!-- 	</run> -->
+<!-- 	</groups> -->
+
+	<test name="MarketingSuite">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="saurabh" />
+		<classes>
+		
+<!-- 			<class -->
+<!-- 				name="com.eva.vtiger.salestestscripts.SalesLeadsTestScripts"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="verifyVT007SearchLeads" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+			
+			<class name="com.eva.vtiger.marketingtestscripts.MarketingAccountTestScripts">
+			<methods>
+			<include name="verifyVT003SearchAccount"></include>
+			</methods>
+			</class>
+			
+		</classes>
+		<!-- <packages> -->
+		<!-- <package name="com.eva.vtiger.marketingtestscripts" /> -->
+		<!-- </packages> -->
+	</test>
+<!-- 	<test name="InventorySuite"> -->
+<!-- 	<classes> -->
+<!-- 	<class name="com.eva.vtiger.inventorytestscripts.InventryInvoiceTestScripts" /> -->
+<!-- 	</classes> -->
+<!-- 	</test> -->
+</suite>

@@ -1,0 +1,14 @@
+com\eva\vtiger\base\BaseTest.class
+com\eva\vtiger\inventorytestscripts\InventryInvoiceTestScripts.class
+com\eva\readdata\xsls.class
+com\eva\vtiger\base\TestCase.class
+com\eva\vtiger\testscripts\MarketingAccountTestScripts.class
+com\eva\vtiger\testscripts\MarketingLeadsTestScripts.class
+com\eva\vtiger\base\TestingTestng.class
+com\eva\vtiger\salestestscripts\SalesLeadsTestScripts.class
+com\eva\vtiger\testscripts\InventryInvoiceTestScripts.class
+com\eva\vtiger\testscripts\BaseTest.class
+com\eva\vtiger\base\TestAssertions.class
+com\eva\vtiger\base\Base.class
+com\eva\vtiger\marketingtestscripts\MarketingAccountTestScripts.class
+com\eva\vtiger\testscripts\TestingTestng.class
