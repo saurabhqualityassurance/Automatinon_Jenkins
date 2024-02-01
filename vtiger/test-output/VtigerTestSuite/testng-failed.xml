@@ -6,19 +6,19 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="username" value="admin"/>
     <classes>
-      <class name="com.eva.vtiger.marketingtestscripts.MarketingAccountTestScripts">
+      <class name="com.eva.vtiger.salestestscripts.SalesLeadsTestScripts">
         <methods>
           <include name="beforeTestCases"/>
-          <include name="verifyVT003SearchAccount"/>
           <include name="afterTest"/>
           <include name="beforeMethod"/>
+          <include name="verifyVT008CreateLeads"/>
           <include name="beforeTestTag"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.eva.vtiger.marketingtestscripts.MarketingAccountTestScripts -->
+      </class> <!-- com.eva.vtiger.salestestscripts.SalesLeadsTestScripts -->
     </classes>
   </test> <!-- MarketingSuite(failed) -->
 </suite> <!-- Failed suite [VtigerTestSuite] -->
